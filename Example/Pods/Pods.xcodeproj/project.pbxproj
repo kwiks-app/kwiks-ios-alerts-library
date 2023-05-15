@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28BEE49CDCF702C3C83BB9973D1F61D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		32E27D00F4B04A447B781BE184CE6C1F /* SegoeItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37CA661952C5780087B5423CCDF4C4DE /* SegoeItalic.ttf */; };
+		33330C8E838C74C0E71F4B8CD66EE271 /* Pods-KwiksSystemsAlerts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 014E4B14ABBAED3843C01096DB3802E8 /* Pods-KwiksSystemsAlerts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3916E0399B35BC3D06A9B76CF7BF87FC /* KwiksHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90D323B316EA0757E611E268F8193B /* KwiksHelpers.swift */; };
+		3C19D18BE57F8302AAC1AAA585F49F3F /* Pods-KwiksSystemsAlerts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3025C2D1DFF658F4C6494FE769222E /* Pods-KwiksSystemsAlerts_Tests-dummy.m */; };
+		4D76232850A5D6D68F59B9C67A3701AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		66A8C08166D0F77EDC4CD4D7927C6F87 /* KwiksSystemsAlerts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 011CF471615AD921D2E6612C87DDB579 /* KwiksSystemsAlerts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F818A5409B41FFC765438FC67504E42 /* SegoeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4AED5D65F7C1E54C3C045CA2C4A3FA1 /* SegoeRegular.ttf */; };
+		76C868A4AA3E757A016AFDF2F1FBC3A4 /* SegoeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FFEA8C5F2D82FECC38B445FC79BE59 /* SegoeBold.ttf */; };
+		7E85747244F91143E6A0233CC84AFE0D /* NetworkSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FFA7B170959FDD8105133355DE960 /* NetworkSingleton.swift */; };
+		9AD255F2BFD60410C2D2AF82E434E5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		A2D78F76B22FD676CE00AECB42FB57D1 /* SegoeBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F36D54E37ABCF6F941F2B69FF53A4F9D /* SegoeBoldItalic.ttf */; };
+		AAB205A4BB33143C1368FDE31ACED7AC /* KwiksSystemsAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01269BDA818D2142CF96D4FA575D12CE /* KwiksSystemsAlerts.swift */; };
+		C705EA16E3050F4A4844173D50AD7781 /* Pods-KwiksSystemsAlerts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3288559CCD5A851A84C7FB4AAC2B3344 /* Pods-KwiksSystemsAlerts_Example-dummy.m */; };
+		D592AAE3DCCF2A42436EB2BB2CD4F3DD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAF2E8CF8BA57B27956FA69FDB55D30 /* Media.xcassets */; };
+		E4DBB7DAD48DB72B3F90CBCE2035F271 /* KwiksSystemsAlerts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA12F532F98702F949F1FEDD2A61FC /* KwiksSystemsAlerts-dummy.m */; };
+		F057D9213317AEC8A07A7363AF0F242C /* Pods-KwiksSystemsAlerts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D018178E801043AD0C293457BE6317 /* Pods-KwiksSystemsAlerts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B7B79AEDB9B4DA9332701FB23BBBE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02006C577D3181872151E16F478D45E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76C490832D30AE8EE1002AA5F808B7A;
+			remoteInfo = KwiksSystemsAlerts;
+		};
+		E0FF2606188E5ACE6A6298CDCEE3AE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B02C47B9FA2C2D921A0855C6A922E87;
+			remoteInfo = "Pods-KwiksSystemsAlerts_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011CF471615AD921D2E6612C87DDB579 /* KwiksSystemsAlerts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsAlerts-umbrella.h"; sourceTree = "<group>"; };
+		01269BDA818D2142CF96D4FA575D12CE /* KwiksSystemsAlerts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksSystemsAlerts.swift; path = KwiksSystemsAlerts/Classes/KwiksSystemsAlerts.swift; sourceTree = "<group>"; };
+		014E4B14ABBAED3843C01096DB3802E8 /* Pods-KwiksSystemsAlerts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksSystemsAlerts_Tests-umbrella.h"; sourceTree = "<group>"; };
+		12FFEA8C5F2D82FECC38B445FC79BE59 /* SegoeBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeBold.ttf; path = KwiksSystemsAlerts/Assets/SegoeBold.ttf; sourceTree = "<group>"; };
+		18DA12F532F98702F949F1FEDD2A61FC /* KwiksSystemsAlerts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KwiksSystemsAlerts-dummy.m"; sourceTree = "<group>"; };
+		1F3025C2D1DFF658F4C6494FE769222E /* Pods-KwiksSystemsAlerts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksSystemsAlerts_Tests-dummy.m"; sourceTree = "<group>"; };
+		2C8D0C3091E0BE23209629976A8E5FAB /* KwiksSystemsAlerts */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KwiksSystemsAlerts; path = KwiksSystemsAlerts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3288559CCD5A851A84C7FB4AAC2B3344 /* Pods-KwiksSystemsAlerts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksSystemsAlerts_Example-dummy.m"; sourceTree = "<group>"; };
+		36243085A5A6AE2D68AD83ABA36C4002 /* Pods-KwiksSystemsAlerts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksSystemsAlerts_Tests.modulemap"; sourceTree = "<group>"; };
+		37CA661952C5780087B5423CCDF4C4DE /* SegoeItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeItalic.ttf; path = KwiksSystemsAlerts/Assets/SegoeItalic.ttf; sourceTree = "<group>"; };
+		39195C87336459444E0B0652D5D63D20 /* KwiksSystemsAlerts.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KwiksSystemsAlerts.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		486B7B5EBAA243AF70D575E64346EE84 /* Pods-KwiksSystemsAlerts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksSystemsAlerts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AD38B040DBF55B2768385CE3E3B6E43 /* KwiksSystemsAlerts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksSystemsAlerts.debug.xcconfig; sourceTree = "<group>"; };
+		5C298885D9ACBD7DE0DD0732FE099268 /* Pods-KwiksSystemsAlerts_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksSystemsAlerts_Example"; path = Pods_KwiksSystemsAlerts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C826107ED4398C1C28EABA6B7F3A772 /* Pods-KwiksSystemsAlerts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KwiksSystemsAlerts_Example-frameworks.sh"; sourceTree = "<group>"; };
+		627F13EAEE66F761DD6CE9D0016AE625 /* Pods-KwiksSystemsAlerts_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Tests-Info.plist"; sourceTree = "<group>"; };
+		7251D3F7A35FAF2A3CCA7F3528C74FF9 /* Pods-KwiksSystemsAlerts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7425002718B9886E5CF8FAF6527AD301 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7E90D323B316EA0757E611E268F8193B /* KwiksHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksHelpers.swift; path = KwiksSystemsAlerts/Classes/KwiksHelpers.swift; sourceTree = "<group>"; };
+		8B5033EFAA325E116AC4E0B2880DBEB2 /* Pods-KwiksSystemsAlerts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B50B849A2664A375544E0EBF71682AA /* KwiksSystemsAlerts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KwiksSystemsAlerts-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC8BB949015F46D6D3679A567C086147 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ADE6FF49E3216BCBA8B095B3EE361926 /* KwiksSystemsAlerts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsAlerts-prefix.pch"; sourceTree = "<group>"; };
+		B40562CB1B02E7EF4346B2D72280A633 /* Pods-KwiksSystemsAlerts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B4AED5D65F7C1E54C3C045CA2C4A3FA1 /* SegoeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeRegular.ttf; path = KwiksSystemsAlerts/Assets/SegoeRegular.ttf; sourceTree = "<group>"; };
+		B92069B4D7AC368EF58DE35D74B992F7 /* Pods-KwiksSystemsAlerts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksSystemsAlerts_Example.modulemap"; sourceTree = "<group>"; };
+		BB292C6179D94DE0533446CB88DC7F12 /* Pods-KwiksSystemsAlerts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D018178E801043AD0C293457BE6317 /* Pods-KwiksSystemsAlerts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksSystemsAlerts_Example-umbrella.h"; sourceTree = "<group>"; };
+		C9A11547D2B2006116C1C581E29EF796 /* Pods-KwiksSystemsAlerts_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksSystemsAlerts_Tests"; path = Pods_KwiksSystemsAlerts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAF2E8CF8BA57B27956FA69FDB55D30 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KwiksSystemsAlerts/Assets/Media.xcassets; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DCB682B087FE9B4A4533709F18BAF94D /* Pods-KwiksSystemsAlerts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E32FC621F07A3A48CC015B3EC84FB323 /* Pods-KwiksSystemsAlerts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksSystemsAlerts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E905DF927D0424060E893BB7AB6CF80B /* KwiksSystemsAlerts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksSystemsAlerts.release.xcconfig; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE6FFA7B170959FDD8105133355DE960 /* NetworkSingleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkSingleton.swift; path = KwiksSystemsAlerts/Classes/NetworkSingleton.swift; sourceTree = "<group>"; };
+		F3640930F23354655278B812EF090D5A /* Pods-KwiksSystemsAlerts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F36D54E37ABCF6F941F2B69FF53A4F9D /* SegoeBoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeBoldItalic.ttf; path = KwiksSystemsAlerts/Assets/SegoeBoldItalic.ttf; sourceTree = "<group>"; };
+		FD14DA7BC2694A38ACD7416E747C49D1 /* KwiksSystemsAlerts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KwiksSystemsAlerts.modulemap; sourceTree = "<group>"; };
+		FFE9FF4BC0D42334675DCFCEECCFE3C7 /* Pods-KwiksSystemsAlerts_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A05184BAB9E01DF78DF02577767176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BEE49CDCF702C3C83BB9973D1F61D2 /* Foundation.framework in Frameworks */,
+				F2B7B79AEDB9B4DA9332701FB23BBBE5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9812331A4FE6DDFA3EC7238F751597CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76232850A5D6D68F59B9C67A3701AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A35447EC7A87581951816651D7B241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD255F2BFD60410C2D2AF82E434E5EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057E2DB05B9422CFB758CFD705D154FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD14DA7BC2694A38ACD7416E747C49D1 /* KwiksSystemsAlerts.modulemap */,
+				18DA12F532F98702F949F1FEDD2A61FC /* KwiksSystemsAlerts-dummy.m */,
+				9B50B849A2664A375544E0EBF71682AA /* KwiksSystemsAlerts-Info.plist */,
+				ADE6FF49E3216BCBA8B095B3EE361926 /* KwiksSystemsAlerts-prefix.pch */,
+				011CF471615AD921D2E6612C87DDB579 /* KwiksSystemsAlerts-umbrella.h */,
+				4AD38B040DBF55B2768385CE3E3B6E43 /* KwiksSystemsAlerts.debug.xcconfig */,
+				E905DF927D0424060E893BB7AB6CF80B /* KwiksSystemsAlerts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KwiksSystemsAlerts";
+			sourceTree = "<group>";
+		};
+		0A70923249078F77A01B5F938336D1F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE3441687FED121091824CF6E999F51B /* Pods-KwiksSystemsAlerts_Example */,
+				47EEECB9174647CD89685B4A73C59442 /* Pods-KwiksSystemsAlerts_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2444FD24957118C8D7EDA3820BD12D5E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CDFAD552F66423E13359BC06892A5F8 /* KwiksSystemsAlerts */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		410F14152AAD1D1DB92B76137451BAC8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39195C87336459444E0B0652D5D63D20 /* KwiksSystemsAlerts.podspec */,
+				AC8BB949015F46D6D3679A567C086147 /* LICENSE */,
+				7425002718B9886E5CF8FAF6527AD301 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		47EEECB9174647CD89685B4A73C59442 /* Pods-KwiksSystemsAlerts_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36243085A5A6AE2D68AD83ABA36C4002 /* Pods-KwiksSystemsAlerts_Tests.modulemap */,
+				E32FC621F07A3A48CC015B3EC84FB323 /* Pods-KwiksSystemsAlerts_Tests-acknowledgements.markdown */,
+				F3640930F23354655278B812EF090D5A /* Pods-KwiksSystemsAlerts_Tests-acknowledgements.plist */,
+				1F3025C2D1DFF658F4C6494FE769222E /* Pods-KwiksSystemsAlerts_Tests-dummy.m */,
+				627F13EAEE66F761DD6CE9D0016AE625 /* Pods-KwiksSystemsAlerts_Tests-Info.plist */,
+				014E4B14ABBAED3843C01096DB3802E8 /* Pods-KwiksSystemsAlerts_Tests-umbrella.h */,
+				BB292C6179D94DE0533446CB88DC7F12 /* Pods-KwiksSystemsAlerts_Tests.debug.xcconfig */,
+				DCB682B087FE9B4A4533709F18BAF94D /* Pods-KwiksSystemsAlerts_Tests.release.xcconfig */,
+			);
+			name = "Pods-KwiksSystemsAlerts_Tests";
+			path = "Target Support Files/Pods-KwiksSystemsAlerts_Tests";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CDFAD552F66423E13359BC06892A5F8 /* KwiksSystemsAlerts */ = {
+			isa = PBXGroup;
+			children = (
+				7E90D323B316EA0757E611E268F8193B /* KwiksHelpers.swift */,
+				01269BDA818D2142CF96D4FA575D12CE /* KwiksSystemsAlerts.swift */,
+				CBAF2E8CF8BA57B27956FA69FDB55D30 /* Media.xcassets */,
+				EE6FFA7B170959FDD8105133355DE960 /* NetworkSingleton.swift */,
+				12FFEA8C5F2D82FECC38B445FC79BE59 /* SegoeBold.ttf */,
+				F36D54E37ABCF6F941F2B69FF53A4F9D /* SegoeBoldItalic.ttf */,
+				37CA661952C5780087B5423CCDF4C4DE /* SegoeItalic.ttf */,
+				B4AED5D65F7C1E54C3C045CA2C4A3FA1 /* SegoeRegular.ttf */,
+				410F14152AAD1D1DB92B76137451BAC8 /* Pod */,
+				057E2DB05B9422CFB758CFD705D154FE /* Support Files */,
+			);
+			name = KwiksSystemsAlerts;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B0D009A4C31F7BC24D198E54C9190283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D0C3091E0BE23209629976A8E5FAB /* KwiksSystemsAlerts */,
+				5C298885D9ACBD7DE0DD0732FE099268 /* Pods-KwiksSystemsAlerts_Example */,
+				C9A11547D2B2006116C1C581E29EF796 /* Pods-KwiksSystemsAlerts_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3441687FED121091824CF6E999F51B /* Pods-KwiksSystemsAlerts_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B92069B4D7AC368EF58DE35D74B992F7 /* Pods-KwiksSystemsAlerts_Example.modulemap */,
+				486B7B5EBAA243AF70D575E64346EE84 /* Pods-KwiksSystemsAlerts_Example-acknowledgements.markdown */,
+				8B5033EFAA325E116AC4E0B2880DBEB2 /* Pods-KwiksSystemsAlerts_Example-acknowledgements.plist */,
+				3288559CCD5A851A84C7FB4AAC2B3344 /* Pods-KwiksSystemsAlerts_Example-dummy.m */,
+				5C826107ED4398C1C28EABA6B7F3A772 /* Pods-KwiksSystemsAlerts_Example-frameworks.sh */,
+				FFE9FF4BC0D42334675DCFCEECCFE3C7 /* Pods-KwiksSystemsAlerts_Example-Info.plist */,
+				C0D018178E801043AD0C293457BE6317 /* Pods-KwiksSystemsAlerts_Example-umbrella.h */,
+				B40562CB1B02E7EF4346B2D72280A633 /* Pods-KwiksSystemsAlerts_Example.debug.xcconfig */,
+				7251D3F7A35FAF2A3CCA7F3528C74FF9 /* Pods-KwiksSystemsAlerts_Example.release.xcconfig */,
+			);
+			name = "Pods-KwiksSystemsAlerts_Example";
+			path = "Target Support Files/Pods-KwiksSystemsAlerts_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2444FD24957118C8D7EDA3820BD12D5E /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B0D009A4C31F7BC24D198E54C9190283 /* Products */,
+				0A70923249078F77A01B5F938336D1F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06F5F9DD0315AD1E3AA14F24402D5EE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33330C8E838C74C0E71F4B8CD66EE271 /* Pods-KwiksSystemsAlerts_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DDB4AFD7C915E1302701CA03565DE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A8C08166D0F77EDC4CD4D7927C6F87 /* KwiksSystemsAlerts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6CF45D32AA9669FB26B9C5FBF782CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F057D9213317AEC8A07A7363AF0F242C /* Pods-KwiksSystemsAlerts_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ADCAFDB53552056A1FCCCB6BCB4B0FD /* Pods-KwiksSystemsAlerts_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F65BDB9E45BE98B02EEA60942F64FB5 /* Build configuration list for PBXNativeTarget "Pods-KwiksSystemsAlerts_Tests" */;
+			buildPhases = (
+				06F5F9DD0315AD1E3AA14F24402D5EE3 /* Headers */,
+				4C1C8232E8E60A629B2498BEA1F25FD8 /* Sources */,
+				9812331A4FE6DDFA3EC7238F751597CA /* Frameworks */,
+				B718DED8DA848734EB81F2925AF45071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E10C83A26A318E2798552D00B4B60E /* PBXTargetDependency */,
+			);
+			name = "Pods-KwiksSystemsAlerts_Tests";
+			productName = Pods_KwiksSystemsAlerts_Tests;
+			productReference = C9A11547D2B2006116C1C581E29EF796 /* Pods-KwiksSystemsAlerts_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B02C47B9FA2C2D921A0855C6A922E87 /* Pods-KwiksSystemsAlerts_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547A2D278B3F751A98DA5BB1AAA55339 /* Build configuration list for PBXNativeTarget "Pods-KwiksSystemsAlerts_Example" */;
+			buildPhases = (
+				EE6CF45D32AA9669FB26B9C5FBF782CB /* Headers */,
+				2A82B00E5C853F58ABF6F3A7C3500CC5 /* Sources */,
+				C1A35447EC7A87581951816651D7B241 /* Frameworks */,
+				DB50E4249499C87723438D9504728275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF64E90A78CB490143D4580BE3FEA58 /* PBXTargetDependency */,
+			);
+			name = "Pods-KwiksSystemsAlerts_Example";
+			productName = Pods_KwiksSystemsAlerts_Example;
+			productReference = 5C298885D9ACBD7DE0DD0732FE099268 /* Pods-KwiksSystemsAlerts_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E76C490832D30AE8EE1002AA5F808B7A /* KwiksSystemsAlerts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628D48739FFE5E360563A32E6464FD11 /* Build configuration list for PBXNativeTarget "KwiksSystemsAlerts" */;
+			buildPhases = (
+				89DDB4AFD7C915E1302701CA03565DE1 /* Headers */,
+				A1D6AD45DDD9B4D554D2A650C14FE0F5 /* Sources */,
+				61A05184BAB9E01DF78DF02577767176 /* Frameworks */,
+				184F102C23214476B88FE515EF7A93F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KwiksSystemsAlerts;
+			productName = KwiksSystemsAlerts;
+			productReference = 2C8D0C3091E0BE23209629976A8E5FAB /* KwiksSystemsAlerts */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B0D009A4C31F7BC24D198E54C9190283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76C490832D30AE8EE1002AA5F808B7A /* KwiksSystemsAlerts */,
+				4B02C47B9FA2C2D921A0855C6A922E87 /* Pods-KwiksSystemsAlerts_Example */,
+				2ADCAFDB53552056A1FCCCB6BCB4B0FD /* Pods-KwiksSystemsAlerts_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184F102C23214476B88FE515EF7A93F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D592AAE3DCCF2A42436EB2BB2CD4F3DD /* Media.xcassets in Resources */,
+				76C868A4AA3E757A016AFDF2F1FBC3A4 /* SegoeBold.ttf in Resources */,
+				A2D78F76B22FD676CE00AECB42FB57D1 /* SegoeBoldItalic.ttf in Resources */,
+				32E27D00F4B04A447B781BE184CE6C1F /* SegoeItalic.ttf in Resources */,
+				6F818A5409B41FFC765438FC67504E42 /* SegoeRegular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718DED8DA848734EB81F2925AF45071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50E4249499C87723438D9504728275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A82B00E5C853F58ABF6F3A7C3500CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C705EA16E3050F4A4844173D50AD7781 /* Pods-KwiksSystemsAlerts_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1C8232E8E60A629B2498BEA1F25FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C19D18BE57F8302AAC1AAA585F49F3F /* Pods-KwiksSystemsAlerts_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D6AD45DDD9B4D554D2A650C14FE0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3916E0399B35BC3D06A9B76CF7BF87FC /* KwiksHelpers.swift in Sources */,
+				AAB205A4BB33143C1368FDE31ACED7AC /* KwiksSystemsAlerts.swift in Sources */,
+				E4DBB7DAD48DB72B3F90CBCE2035F271 /* KwiksSystemsAlerts-dummy.m in Sources */,
+				7E85747244F91143E6A0233CC84AFE0D /* NetworkSingleton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E10C83A26A318E2798552D00B4B60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KwiksSystemsAlerts_Example";
+			target = 4B02C47B9FA2C2D921A0855C6A922E87 /* Pods-KwiksSystemsAlerts_Example */;
+			targetProxy = E0FF2606188E5ACE6A6298CDCEE3AE64 /* PBXContainerItemProxy */;
+		};
+		1BF64E90A78CB490143D4580BE3FEA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KwiksSystemsAlerts;
+			target = E76C490832D30AE8EE1002AA5F808B7A /* KwiksSystemsAlerts */;
+			targetProxy = 02006C577D3181872151E16F478D45E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49DFFE3E40328D87105BB47A9648A75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E905DF927D0424060E893BB7AB6CF80B /* KwiksSystemsAlerts.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KwiksSystemsAlerts/KwiksSystemsAlerts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KwiksSystemsAlerts/KwiksSystemsAlerts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KwiksSystemsAlerts/KwiksSystemsAlerts.modulemap";
+				PRODUCT_MODULE_NAME = KwiksSystemsAlerts;
+				PRODUCT_NAME = KwiksSystemsAlerts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CEAEB25F1D6DAB3584B0AA5B6108B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB682B087FE9B4A4533709F18BAF94D /* Pods-KwiksSystemsAlerts_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60102017C20CFF88583A6C6A68B56CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40562CB1B02E7EF4346B2D72280A633 /* Pods-KwiksSystemsAlerts_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7190A807E0B22757A44458C002E5DD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB292C6179D94DE0533446CB88DC7F12 /* Pods-KwiksSystemsAlerts_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		87F0C9E37101C7741CDE5C9877685499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7251D3F7A35FAF2A3CCA7F3528C74FF9 /* Pods-KwiksSystemsAlerts_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D0B9699290EAF14CF5C78BCE658C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD38B040DBF55B2768385CE3E3B6E43 /* KwiksSystemsAlerts.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KwiksSystemsAlerts/KwiksSystemsAlerts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KwiksSystemsAlerts/KwiksSystemsAlerts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KwiksSystemsAlerts/KwiksSystemsAlerts.modulemap";
+				PRODUCT_MODULE_NAME = KwiksSystemsAlerts;
+				PRODUCT_NAME = KwiksSystemsAlerts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F65BDB9E45BE98B02EEA60942F64FB5 /* Build configuration list for PBXNativeTarget "Pods-KwiksSystemsAlerts_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7190A807E0B22757A44458C002E5DD31 /* Debug */,
+				4CEAEB25F1D6DAB3584B0AA5B6108B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547A2D278B3F751A98DA5BB1AAA55339 /* Build configuration list for PBXNativeTarget "Pods-KwiksSystemsAlerts_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60102017C20CFF88583A6C6A68B56CF7 /* Debug */,
+				87F0C9E37101C7741CDE5C9877685499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628D48739FFE5E360563A32E6464FD11 /* Build configuration list for PBXNativeTarget "KwiksSystemsAlerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D0B9699290EAF14CF5C78BCE658C3F /* Debug */,
+				49DFFE3E40328D87105BB47A9648A75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
