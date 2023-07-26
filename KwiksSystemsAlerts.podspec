@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KwiksSystemsAlerts'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'KwiksSystemsAlerts was designed to handle all internal full screen style blockers in the Kwiks iOS Application.'
 
   s.description      = <<-DESC

@@ -9,7 +9,18 @@
 import Foundation
 import UIKit
 
+
 public class KwiksSystemAlerts : NSObject {
+    
+    public enum ResponseType {
+        case dismiss
+        case serverDown
+        case contactSupportEmail
+        case kwiksUnavailable
+    }
+    //stanley request for callback option
+    public var callback: ((ResponseType) -> Void)?
+    public var responseType = ResponseType.dismiss
     
     public enum PopupType{
         case noInternetConnection
@@ -90,7 +101,7 @@ public class KwiksSystemAlerts : NSObject {
         let image = UIImage(named: ImageKit().button_gradient_green)?.withRenderingMode(.alwaysOriginal)
         cbf.setBackgroundImage(image, for: .normal)
         cbf.titleLabel?.font = UIFont.init(name: FontKit().segoeBold, size: 30)
-
+        
         return cbf
         
     }()
@@ -111,9 +122,9 @@ public class KwiksSystemAlerts : NSObject {
         ai.translatesAutoresizingMaskIntoConstraints = false
         ai.color = UIColor .black
         ai.hidesWhenStopped = true
-       return ai
+        return ai
     }()
-  
+    
     struct ButtonWidth {
         var small : CGFloat = 182.0
         var large : CGFloat = 250.0
@@ -267,23 +278,27 @@ public class KwiksSystemAlerts : NSObject {
         }
     }
     
+    //engage popup
     public func engagePopup() {
         
-        self.headerLabel.font = UIFont(name: FontKit().segoeBold, size: 20)
-        self.subHeaderLabel.font = UIFont(name: FontKit().segoeRegular, size: 16)
-        self.confirmationButton.titleLabel?.font = UIFont(name: FontKit().segoeBold, size: 18)
-        
-        let height = self.rootController?.view.frame.height,
-            width = self.rootController?.view.frame.width
-        
-        //nil check prior
-        if height != nil && width != nil {
-            self.screenWidth = width!
-            self.screenHeight = height!
-            self.presentPopup()
+        DispatchQueue.main.async {
             
-        } else {
-            print("🔴 COCOAPOD ERROR: NIL - LET KWIKS DEV LIBRARY MAGICIAN KNOW - SERIAL (64575)")
+            self.headerLabel.font = UIFont(name: FontKit().segoeBold, size: 20)
+            self.subHeaderLabel.font = UIFont(name: FontKit().segoeRegular, size: 16)
+            self.confirmationButton.titleLabel?.font = UIFont(name: FontKit().segoeBold, size: 18)
+            
+            let height = self.rootController?.view.frame.height,
+                width = self.rootController?.view.frame.width
+            
+            //nil check prior
+            if height != nil && width != nil {
+                self.screenWidth = width!
+                self.screenHeight = height!
+                self.presentPopup()
+                
+            } else {
+                print("🔴 COCOAPOD ERROR: NIL - LET KWIKS DEV LIBRARY MAGICIAN KNOW - SERIAL (64575)")
+            }
         }
     }
     
@@ -365,7 +380,10 @@ public class KwiksSystemAlerts : NSObject {
             
         case .noInternetConnection://check for service here
             if self.hasService == true {
+                self.responseType = .serverDown
+                callback?(.serverDown)
                 self.dismiss()
+                break
             } else {
                 
                 self.confirmationButton.alpha = 0.0
@@ -378,64 +396,104 @@ public class KwiksSystemAlerts : NSObject {
                     if self.hasService == false {
                         self.confirmationButton.setTitle("Try again", for: .normal)
                         self.confirmationButton.alpha = 1.0
+                        self.responseType = .serverDown
+                        self.callback?(.serverDown)
                     } else {
+                        self.responseType = .dismiss
+                        self.callback?(.dismiss)
                         self.dismiss()
                     }
                 }
             }
         case .somethingWentWrong://product page
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .suspended://product page
             if self.confirmationButton.titleLabel?.text == "Error" {
                 self.dismiss()
+                self.responseType = .dismiss
+                self.callback?(.dismiss)
+                
             } else {
+                self.responseType = .contactSupportEmail
+                self.callback?(.contactSupportEmail)
                 self.contactSupportEmail()
             }
             
         case .tempLocked://product page
             if self.confirmationButton.titleLabel?.text == "Error" {
+                self.responseType = .dismiss
+
+                self.callback?(.dismiss)
                 self.dismiss()
             } else {
+                self.responseType = .contactSupportEmail
+                self.callback?(.contactSupportEmail)
                 self.contactSupportEmail()
             }
         case .kwiksUnavailable://product page
+            self.responseType = .kwiksUnavailable
+            self.callback?(.kwiksUnavailable)
             self.dismiss()
             
         case .waitingResponse://NEED A UI CHANGE HERE WITH PREP
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .loginApproved:
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .timeOut://product page
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .networkConnectionTimeout://product page
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .sessionExpired://product page
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .accessDenied://product page
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .serverError://product page
+            self.responseType = .serverDown
+            self.callback?(.serverDown)
             self.dismiss()
             
         case .authenticationError://product page
+            self.responseType = .dismiss
+            self.callback?(.dismiss)
             self.dismiss()
             
         case .updateKwiks://product page
             self.dynamicPopUpContainer.openUrl(passedUrlString: GlobalsKit().productPageURL)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                self.responseType = .dismiss
+                self.callback?(.dismiss)
                 self.dismiss()
             }
             
         case .authenticationDenied://product page
             if self.confirmationButton.titleLabel?.text == "Error" {
+                self.responseType = .dismiss
+                self.callback?(.dismiss)
                 self.dismiss()
             } else {
+                self.responseType = .contactSupportEmail
+                self.callback?(.contactSupportEmail)
                 self.contactSupportEmail()
             }
         default: debugPrint("not possible")
@@ -444,12 +502,17 @@ public class KwiksSystemAlerts : NSObject {
     
     @objc public func dismiss() {
         
-        if let root = self.rootController {
+        DispatchQueue.main.async {
             
-            UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseOut) {
-                self.confirmationButton.alpha = 0.0
-                self.dynamicPopUpContainer.frame = CGRect(x: 0, y: self.screenHeight, width: self.screenWidth, height: self.screenHeight)
-                self.dynamicPopUpContainer.center.x = root.view.center.x
+            
+            
+            if let root = self.rootController {
+                
+                UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseOut) {
+                    self.confirmationButton.alpha = 0.0
+                    self.dynamicPopUpContainer.frame = CGRect(x: 0, y: self.screenHeight, width: self.screenWidth, height: self.screenHeight)
+                    self.dynamicPopUpContainer.center.x = root.view.center.x
+                }
             }
         }
     }
@@ -479,7 +542,7 @@ extension KwiksSystemAlerts : MFMailComposeViewControllerDelegate {
         controller.dismiss(animated: true, completion: nil)
     }
     
-   @objc public func contactSupportEmail() {
+    @objc public func contactSupportEmail() {
         
         if MFMailComposeViewController.canSendMail() {
             
@@ -498,3 +561,4 @@ extension KwiksSystemAlerts : MFMailComposeViewControllerDelegate {
         }
     }
 }
+

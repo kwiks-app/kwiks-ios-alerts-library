@@ -42,16 +42,26 @@ class ViewController: UIViewController {
         self.testButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
         self.testButton.widthAnchor.constraint(equalToConstant: 150).isActive = true
     }
-    
+   
     @objc func runPopup() {
         
-        self.alert = KwiksSystemAlerts(presentingViewController: self, popupType: .noInternetConnection)
+        self.alert = KwiksSystemAlerts(presentingViewController: self, popupType: .authenticationError)
         self.alert.engagePopup()
+        
+        self.alert.callback = { (data) in
+            
+            switch self.alert.responseType {
+                
+            case .contactSupportEmail: print("contactSupportEmail")
+            case .dismiss: print("dismiss")
+            case .kwiksUnavailable: print("kwiksUnavailable")
+            case .serverDown: print("serverDown")
+                
+            }
+        }
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
 }
 
