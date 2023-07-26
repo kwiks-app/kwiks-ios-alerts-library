@@ -7,6 +7,8 @@
 
 ## Usage
 ```
+var alert = KwiksSystemAlerts()
+
 self.alert = KwiksSystemAlerts(presentingViewController: self, popupType: .authenticationError)
 
 self.alert.engagePopup()
