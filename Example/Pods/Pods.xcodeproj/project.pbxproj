@@ -48,33 +48,33 @@
 		011CF471615AD921D2E6612C87DDB579 /* KwiksSystemsAlerts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsAlerts-umbrella.h"; sourceTree = "<group>"; };
 		01269BDA818D2142CF96D4FA575D12CE /* KwiksSystemsAlerts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksSystemsAlerts.swift; path = KwiksSystemsAlerts/Classes/KwiksSystemsAlerts.swift; sourceTree = "<group>"; };
 		014E4B14ABBAED3843C01096DB3802E8 /* Pods-KwiksSystemsAlerts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksSystemsAlerts_Tests-umbrella.h"; sourceTree = "<group>"; };
-		12FFEA8C5F2D82FECC38B445FC79BE59 /* SegoeBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = SegoeBold.ttf; path = KwiksSystemsAlerts/Assets/SegoeBold.ttf; sourceTree = "<group>"; };
+		12FFEA8C5F2D82FECC38B445FC79BE59 /* SegoeBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeBold.ttf; path = KwiksSystemsAlerts/Assets/SegoeBold.ttf; sourceTree = "<group>"; };
 		18DA12F532F98702F949F1FEDD2A61FC /* KwiksSystemsAlerts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KwiksSystemsAlerts-dummy.m"; sourceTree = "<group>"; };
 		1F3025C2D1DFF658F4C6494FE769222E /* Pods-KwiksSystemsAlerts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksSystemsAlerts_Tests-dummy.m"; sourceTree = "<group>"; };
 		2C8D0C3091E0BE23209629976A8E5FAB /* KwiksSystemsAlerts */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KwiksSystemsAlerts; path = KwiksSystemsAlerts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3288559CCD5A851A84C7FB4AAC2B3344 /* Pods-KwiksSystemsAlerts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksSystemsAlerts_Example-dummy.m"; sourceTree = "<group>"; };
 		36243085A5A6AE2D68AD83ABA36C4002 /* Pods-KwiksSystemsAlerts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksSystemsAlerts_Tests.modulemap"; sourceTree = "<group>"; };
-		37CA661952C5780087B5423CCDF4C4DE /* SegoeItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = SegoeItalic.ttf; path = KwiksSystemsAlerts/Assets/SegoeItalic.ttf; sourceTree = "<group>"; };
-		39195C87336459444E0B0652D5D63D20 /* KwiksSystemsAlerts.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KwiksSystemsAlerts.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		37CA661952C5780087B5423CCDF4C4DE /* SegoeItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeItalic.ttf; path = KwiksSystemsAlerts/Assets/SegoeItalic.ttf; sourceTree = "<group>"; };
+		39195C87336459444E0B0652D5D63D20 /* KwiksSystemsAlerts.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KwiksSystemsAlerts.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		486B7B5EBAA243AF70D575E64346EE84 /* Pods-KwiksSystemsAlerts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksSystemsAlerts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AD38B040DBF55B2768385CE3E3B6E43 /* KwiksSystemsAlerts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksSystemsAlerts.debug.xcconfig; sourceTree = "<group>"; };
-		5C298885D9ACBD7DE0DD0732FE099268 /* Pods_KwiksSystemsAlerts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksSystemsAlerts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C298885D9ACBD7DE0DD0732FE099268 /* Pods-KwiksSystemsAlerts_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksSystemsAlerts_Example"; path = Pods_KwiksSystemsAlerts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C826107ED4398C1C28EABA6B7F3A772 /* Pods-KwiksSystemsAlerts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KwiksSystemsAlerts_Example-frameworks.sh"; sourceTree = "<group>"; };
 		627F13EAEE66F761DD6CE9D0016AE625 /* Pods-KwiksSystemsAlerts_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Tests-Info.plist"; sourceTree = "<group>"; };
 		7251D3F7A35FAF2A3CCA7F3528C74FF9 /* Pods-KwiksSystemsAlerts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7425002718B9886E5CF8FAF6527AD301 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7425002718B9886E5CF8FAF6527AD301 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7E90D323B316EA0757E611E268F8193B /* KwiksHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksHelpers.swift; path = KwiksSystemsAlerts/Classes/KwiksHelpers.swift; sourceTree = "<group>"; };
 		8B5033EFAA325E116AC4E0B2880DBEB2 /* Pods-KwiksSystemsAlerts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B50B849A2664A375544E0EBF71682AA /* KwiksSystemsAlerts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KwiksSystemsAlerts-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC8BB949015F46D6D3679A567C086147 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC8BB949015F46D6D3679A567C086147 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ADE6FF49E3216BCBA8B095B3EE361926 /* KwiksSystemsAlerts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksSystemsAlerts-prefix.pch"; sourceTree = "<group>"; };
 		B40562CB1B02E7EF4346B2D72280A633 /* Pods-KwiksSystemsAlerts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B4AED5D65F7C1E54C3C045CA2C4A3FA1 /* SegoeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = SegoeRegular.ttf; path = KwiksSystemsAlerts/Assets/SegoeRegular.ttf; sourceTree = "<group>"; };
+		B4AED5D65F7C1E54C3C045CA2C4A3FA1 /* SegoeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeRegular.ttf; path = KwiksSystemsAlerts/Assets/SegoeRegular.ttf; sourceTree = "<group>"; };
 		B92069B4D7AC368EF58DE35D74B992F7 /* Pods-KwiksSystemsAlerts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksSystemsAlerts_Example.modulemap"; sourceTree = "<group>"; };
 		BB292C6179D94DE0533446CB88DC7F12 /* Pods-KwiksSystemsAlerts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0D018178E801043AD0C293457BE6317 /* Pods-KwiksSystemsAlerts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksSystemsAlerts_Example-umbrella.h"; sourceTree = "<group>"; };
-		C9A11547D2B2006116C1C581E29EF796 /* Pods_KwiksSystemsAlerts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksSystemsAlerts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A11547D2B2006116C1C581E29EF796 /* Pods-KwiksSystemsAlerts_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksSystemsAlerts_Tests"; path = Pods_KwiksSystemsAlerts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAF2E8CF8BA57B27956FA69FDB55D30 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KwiksSystemsAlerts/Assets/Media.xcassets; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DCB682B087FE9B4A4533709F18BAF94D /* Pods-KwiksSystemsAlerts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksSystemsAlerts_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EE6FFA7B170959FDD8105133355DE960 /* NetworkSingleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkSingleton.swift; path = KwiksSystemsAlerts/Classes/NetworkSingleton.swift; sourceTree = "<group>"; };
 		F3640930F23354655278B812EF090D5A /* Pods-KwiksSystemsAlerts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F36D54E37ABCF6F941F2B69FF53A4F9D /* SegoeBoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = SegoeBoldItalic.ttf; path = KwiksSystemsAlerts/Assets/SegoeBoldItalic.ttf; sourceTree = "<group>"; };
+		F36D54E37ABCF6F941F2B69FF53A4F9D /* SegoeBoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SegoeBoldItalic.ttf; path = KwiksSystemsAlerts/Assets/SegoeBoldItalic.ttf; sourceTree = "<group>"; };
 		FD14DA7BC2694A38ACD7416E747C49D1 /* KwiksSystemsAlerts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KwiksSystemsAlerts.modulemap; sourceTree = "<group>"; };
 		FFE9FF4BC0D42334675DCFCEECCFE3C7 /* Pods-KwiksSystemsAlerts_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksSystemsAlerts_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,8 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				2C8D0C3091E0BE23209629976A8E5FAB /* KwiksSystemsAlerts */,
-				5C298885D9ACBD7DE0DD0732FE099268 /* Pods_KwiksSystemsAlerts_Example.framework */,
-				C9A11547D2B2006116C1C581E29EF796 /* Pods_KwiksSystemsAlerts_Tests.framework */,
+				5C298885D9ACBD7DE0DD0732FE099268 /* Pods-KwiksSystemsAlerts_Example */,
+				C9A11547D2B2006116C1C581E29EF796 /* Pods-KwiksSystemsAlerts_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 			);
 			name = "Pods-KwiksSystemsAlerts_Tests";
 			productName = Pods_KwiksSystemsAlerts_Tests;
-			productReference = C9A11547D2B2006116C1C581E29EF796 /* Pods_KwiksSystemsAlerts_Tests.framework */;
+			productReference = C9A11547D2B2006116C1C581E29EF796 /* Pods-KwiksSystemsAlerts_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		4B02C47B9FA2C2D921A0855C6A922E87 /* Pods-KwiksSystemsAlerts_Example */ = {
@@ -313,7 +313,7 @@
 			);
 			name = "Pods-KwiksSystemsAlerts_Example";
 			productName = Pods_KwiksSystemsAlerts_Example;
-			productReference = 5C298885D9ACBD7DE0DD0732FE099268 /* Pods_KwiksSystemsAlerts_Example.framework */;
+			productReference = 5C298885D9ACBD7DE0DD0732FE099268 /* Pods-KwiksSystemsAlerts_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		E76C490832D30AE8EE1002AA5F808B7A /* KwiksSystemsAlerts */ = {
@@ -486,7 +486,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests.modulemap";
@@ -520,7 +520,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example.modulemap";
@@ -553,7 +553,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Tests/Pods-KwiksSystemsAlerts_Tests.modulemap";
@@ -625,7 +625,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -647,7 +648,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KwiksSystemsAlerts_Example/Pods-KwiksSystemsAlerts_Example.modulemap";
