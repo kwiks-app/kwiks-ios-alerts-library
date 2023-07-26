@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KwiksSystemsAlerts'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'KwiksSystemsAlerts was designed to handle all internal full screen style blockers in the Kwiks iOS Application.'
 
   s.description      = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/KWIKSCTO/KwiksSystemsAlerts'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KWIKS CTO' => 'charlie@kwiks.com' }
-  s.source           = { :git => 'https://github.com/NoImpactNoIdea/KwiksSystemsAlerts.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kwiks-app/kwiks-ios-alerts-library.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.0'
   s.swift_versions = "5.0"
