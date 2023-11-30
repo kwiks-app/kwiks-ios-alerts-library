@@ -1,5 +1,5 @@
 PODS:
-  - KwiksSystemsAlerts (0.1.5)
+  - KwiksSystemsAlerts (0.2.0)
 
 DEPENDENCIES:
   - KwiksSystemsAlerts (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KwiksSystemsAlerts: 90f91b12fb549ef7ff55258f1578ba6406c6676e
+  KwiksSystemsAlerts: 30052fbffb1e9ba62829909b3eaab88a2180cf19
 
 PODFILE CHECKSUM: 7146e32233b27d328555dd860ed7fb371486bc05
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.13.0

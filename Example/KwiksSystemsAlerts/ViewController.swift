@@ -45,7 +45,7 @@ class ViewController: UIViewController {
    
     @objc func runPopup() {
         
-        self.alert = KwiksSystemAlerts(presentingViewController: self, popupType: .authenticationError)
+        self.alert = KwiksSystemAlerts(presentingViewController: self, popupType: .updateKwiks)
         self.alert.engagePopup()
         
         self.alert.callback = { (data) in
@@ -56,7 +56,8 @@ class ViewController: UIViewController {
             case .dismiss: print("dismiss")
             case .kwiksUnavailable: print("kwiksUnavailable")
             case .serverDown: print("serverDown")
-                
+            case .needsUpdate: print("needsUpdate")
+
             }
         }
     }

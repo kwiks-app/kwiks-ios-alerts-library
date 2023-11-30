@@ -13,10 +13,12 @@ import UIKit
 public class KwiksSystemAlerts : NSObject {
     
     public enum ResponseType {
+        
         case dismiss
         case serverDown
         case contactSupportEmail
         case kwiksUnavailable
+        case needsUpdate
     }
     //stanley request for callback option
     public var callback: ((ResponseType) -> Void)?
@@ -265,7 +267,7 @@ public class KwiksSystemAlerts : NSObject {
         case .updateKwiks: //TODO: fixme
             self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().kwiks_logo_green)
             self.headerLabel.text = "Update Kwiks"
-            self.subHeaderLabel.text = "Kwiks app version is too low. To continue, update to the latest version of the app."
+            self.subHeaderLabel.text = "Your current version of Kwiks needs an update - tap Update Now!"
             self.confirmationButton.setTitle("Update Now", for: .normal)
             self.buttonWidthLayoutConstraint?.constant = ButtonWidth().large
             
@@ -479,10 +481,9 @@ public class KwiksSystemAlerts : NSObject {
             self.dismiss()
             
         case .updateKwiks://product page
-            self.dynamicPopUpContainer.openUrl(passedUrlString: GlobalsKit().productPageURL)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                self.responseType = .dismiss
-                self.callback?(.dismiss)
+                self.responseType = .needsUpdate
+                self.callback?(.needsUpdate)
                 self.dismiss()
             }
             

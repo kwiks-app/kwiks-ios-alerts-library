@@ -12,7 +12,7 @@ struct GlobalsKit {
     static let shared = GlobalsKit()
 
     let supportEmail = "charlie@kwiks.com"
-    let productPageURL = "https://www.google.com"
+    let productPageURL = "https://apps.apple.com/us/app/kwiks/id6448708199"
     let podBundleID = "org.cocoapods.KwiksSystemsAlerts"
     
 }
