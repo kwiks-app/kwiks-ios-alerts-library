@@ -56,8 +56,7 @@ class ViewController: UIViewController {
             case .dismiss: print("dismiss")
             case .kwiksUnavailable: print("kwiksUnavailable")
             case .serverDown: print("serverDown")
-            case .needsUpdate: print("needsUpdate")
-
+            case .needsUpdate: print("kwiks updater")
             }
         }
     }
