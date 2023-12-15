@@ -5,6 +5,7 @@
 //  Created by Charlie Arcodia on 3/27/23.
 //
 
+import Foundation
 import Network
 
 class NetworkMonitor {
