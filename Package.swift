@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "KwiksAlerts",
+    platforms: [
+        .iOS(.v13) // Minimum supported iOS version
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
