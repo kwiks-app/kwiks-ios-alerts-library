@@ -477,7 +477,7 @@ public class KwiksSystemAlerts : NSObject {
             self.callback?(.dismiss)
             self.dismiss()
             
-        case .serverConnectionError
+        case .serverConnectionError:
             self.responseType = .serverDown
             self.callback?(.serverDown)
             self.dismiss()
