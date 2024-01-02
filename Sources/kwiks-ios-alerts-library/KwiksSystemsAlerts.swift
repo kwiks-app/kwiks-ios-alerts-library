@@ -35,6 +35,7 @@ public class KwiksSystemAlerts : NSObject {
         case networkConnectionTimeout
         case sessionExpired
         case accessDenied
+        case serverConnectionError
         case serverError
         case authenticationError
         case authenticationDenied
@@ -247,6 +248,13 @@ public class KwiksSystemAlerts : NSObject {
             self.headerLabel.text = "Access Denied"
             self.subHeaderLabel.text = "Your IP has been blocked or you do not have permission to access this."
             self.confirmationButton.setTitle("Login", for: .normal)
+            self.buttonWidthLayoutConstraint?.constant = ButtonWidth().small
+            
+        case .serverConnectionError:
+            self.headerIcon.image = UIImage.init(fromPodAssetName: ImageKit().no_service_icon)
+            self.headerLabel.text = "There was a problem connecting to the server"
+            self.subHeaderLabel.text = "Please check your internet connection and try again."
+            self.confirmationButton.setTitle("Retry", for: .normal)
             self.buttonWidthLayoutConstraint?.constant = ButtonWidth().small
             
         case .serverError: //TODO: fixme
@@ -467,6 +475,11 @@ public class KwiksSystemAlerts : NSObject {
         case .accessDenied://product page
             self.responseType = .dismiss
             self.callback?(.dismiss)
+            self.dismiss()
+            
+        case .serverConnectionError
+            self.responseType = .serverDown
+            self.callback?(.serverDown)
             self.dismiss()
             
         case .serverError://product page
